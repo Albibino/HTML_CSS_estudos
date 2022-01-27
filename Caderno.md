@@ -1,5 +1,11 @@
 # Curso_HTML_CSS
  Repositório para curso do Guanabara
+### C01A02
+Links importantes:
+
+ * [Repositorio do Guanabara](https://github.com/gustavoguanabara/html-css)
+ * [Site](https://gustavoguanabara.github.io/)
+
 ### C01A03
 Bibliografia recomendada:
 
