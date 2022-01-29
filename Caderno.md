@@ -7,6 +7,7 @@ Links importantes:
  * [Site](https://gustavoguanabara.github.io/)
 
 ### C01A03
+
 Bibliografia recomendada:
 
 1. [W3C Standards](https://www.w3.org/standards/webdesign/)
@@ -17,3 +18,13 @@ Bibliografia recomendada:
 
 A **Intenet** veio da ARPANET, que era para militares.
 (Neste site)[https://www.submarinecablemap.com/] mostra quantos cabos subimarinos estão em operação atualmente.
+
+### C02A01
+ * Codigo Multibyte UTF-8(para letras)
+ * 2**10 = 1024
+ * De quadrada > cenoidal = modulação
+   
+   De cenoidal > quadrada = demodulação
+   
+   MOdulação + DEModulaçao = modem
+ * Para descobrir seu ip, basta entrar [neste site](https://www.iplocation.net/), e no mesmo encontra o ip do servidor de outros sites.
