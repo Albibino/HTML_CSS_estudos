@@ -45,3 +45,8 @@ Estrutura basica de documentos HTML
 
  * Front-end = client-side
  * Back-end = server-side
+
+### C04A02
+
+<img width="229" alt="image" src="https://user-images.githubusercontent.com/84166332/151683243-53e36f15-1349-4157-b283-3e9e3d654b22.png">
+
