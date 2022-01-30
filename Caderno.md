@@ -40,6 +40,7 @@ Estilos em CSS
 <img width="338" alt="image" src="https://user-images.githubusercontent.com/84166332/151681268-7702826c-8f88-4578-9e4b-91f895ca2a23.png">
 Estrutura basica de documentos HTML
 <img width="603" alt="image" src="https://user-images.githubusercontent.com/84166332/151681385-bde8346d-9cd3-4cc3-9654-368291df3faa.png">
+
 ### C03A02
 
  * Front-end = client-side
