@@ -62,3 +62,17 @@ Para colocar emoges basta colocar entra no site [emojipedia](https://emojipedia.
 
 ![Animação](https://user-images.githubusercontent.com/84166332/152274229-d01d0079-950e-41b6-90bc-1c2597b91933.gif)
 
+### C06A01
+
+Sites que so tem imagens de domínio público: 
+ * [UnSplash](https://unsplash.com/) 
+ * [Pexels](https://www.pexels.com/pt-br/) 
+ * [Freepik](https://www.freepik.es/) 
+ * [Rawpixel](https://www.rawpixel.com/) 
+ * [Pixabay](https://pixabay.com/pt/) 
+ * [Libreshot](https://libreshot.com/) 
+ * [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Featured_pictures?uselang=pt-br) 
+ * [Google images](https://www.google.com/search?q=imagens&tbm=isch&hl=pt-br&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjQrrWrw-T1AhUAAAAAHQAAAAAQAg&biw=1079&bih=534) E também no google imagens o __*Licenças Creative Commons*__ ativado.
+> Alguns desses sites que disponibilizam imagens de domínio
+público possuem propagandas de serviços de venda de imagens e acabam te
+confundindo um pouco.
