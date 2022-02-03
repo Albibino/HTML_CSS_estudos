@@ -76,3 +76,13 @@ Sites que so tem imagens de domínio público:
 > Alguns desses sites que disponibilizam imagens de domínio
 público possuem propagandas de serviços de venda de imagens e acabam te
 confundindo um pouco.
+
+### C06A02
+
+Tipos de imagens:
+
+tipos | compactado | transparencia | animação
+:---: | ---: | :---: | :---:
+JPEG | com perdas | não | não
+GIF | poucas perdas | sim | sim
+PNG | poucas perdas | sim | sim
