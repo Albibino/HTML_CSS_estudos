@@ -55,3 +55,10 @@ Estrutura basica de documentos HTML
 Para quebrar linha basta utilizar o `<br>` no meio da fraze.
 
 Sinal de > e < são feitos assim `&lt; e &gt;`
+
+### C05A02
+
+Para colocar emoges basta colocar entra no site [emojipedia](https://emojipedia.org/people/):
+
+![Animação](https://user-images.githubusercontent.com/84166332/152274229-d01d0079-950e-41b6-90bc-1c2597b91933.gif)
+
