@@ -50,3 +50,8 @@ Estrutura basica de documentos HTML
 
 <img width="229" alt="image" src="https://user-images.githubusercontent.com/84166332/151683243-53e36f15-1349-4157-b283-3e9e3d654b22.png">
 
+### C05A01
+
+Para quebrar linha basta utilizar o `<br>` no meio da fraze.
+
+Sinal de > e < são feitos assim `&lt; e &gt;`
