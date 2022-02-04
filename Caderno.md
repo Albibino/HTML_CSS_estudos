@@ -86,3 +86,10 @@ tipos | compactado | transparencia | animação
 JPEG | com perdas | não | não
 GIF | poucas perdas | sim | sim
 PNG | poucas perdas | sim | sim
+
+### C06A05
+
+Sites utilizados na  aula:
+ * [favicon.cc](https://www.favicon.cc/)Para fazer icones
+ * [iconarchive](https://iconarchive.com/)Para encontrar icones]
+ * [favicon.io](https://favicon.io/)Para transformar imagens em icones
