@@ -97,3 +97,7 @@ Sites utilizados na  aula:
 ### C07A01
 
 H1 não é letra grande, e titulo de nivel 1.
+
+### C08A01
+
+Para ver as tags obsoletas basta ver [este site](https://dev.w3.org/html5/pf-summary/obsolete.html)
