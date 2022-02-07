@@ -54,7 +54,7 @@ Estrutura basica de documentos HTML
 
 Para quebrar linha basta utilizar o `<br>` no meio da fraze.
 
-Sinal de < e > são feitos assim `&lt; e &gt;`
+Sinal de < e > são feitos assim `&lt;` e `&gt;`
 
 ### C05A02
 
