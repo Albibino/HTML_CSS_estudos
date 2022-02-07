@@ -50,3 +50,50 @@ Estrutura basica de documentos HTML
 
 <img width="229" alt="image" src="https://user-images.githubusercontent.com/84166332/151683243-53e36f15-1349-4157-b283-3e9e3d654b22.png">
 
+### C05A01
+
+Para quebrar linha basta utilizar o `<br>` no meio da fraze.
+
+Sinal de > e < são feitos assim `&lt; e &gt;`
+
+### C05A02
+
+Para colocar emoges basta colocar entra no site [emojipedia](https://emojipedia.org/people/):
+
+![Animação](https://user-images.githubusercontent.com/84166332/152274229-d01d0079-950e-41b6-90bc-1c2597b91933.gif)
+
+### C06A01
+
+Sites que so tem imagens de domínio público: 
+ * [UnSplash](https://unsplash.com/) 
+ * [Pexels](https://www.pexels.com/pt-br/) 
+ * [Freepik](https://www.freepik.es/) 
+ * [Rawpixel](https://www.rawpixel.com/) 
+ * [Pixabay](https://pixabay.com/pt/) 
+ * [Libreshot](https://libreshot.com/) 
+ * [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Featured_pictures?uselang=pt-br) 
+ * [Google images](https://www.google.com/search?q=imagens&tbm=isch&hl=pt-br&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjQrrWrw-T1AhUAAAAAHQAAAAAQAg&biw=1079&bih=534) E também no google imagens o __*Licenças Creative Commons*__ ativado.
+> Alguns desses sites que disponibilizam imagens de domínio
+público possuem propagandas de serviços de venda de imagens e acabam te
+confundindo um pouco.
+
+### C06A02
+
+Tipos de imagens:
+
+tipos | compactado | transparencia | animação
+:---: | ---: | :---: | :---:
+JPEG | com perdas | não | não
+GIF | poucas perdas | sim | sim
+PNG | poucas perdas | sim | sim
+
+### C06A05
+
+Sites utilizados na  aula:
+ * [favicon.cc](https://www.favicon.cc/)Para fazer icones
+ * [iconarchive](https://iconarchive.com/)Para encontrar icones]
+ * [favicon.io](https://favicon.io/)Para transformar imagens em icones
+
+### C07A01
+
+H1 não é letra grande, e titulo de nivel 1.
