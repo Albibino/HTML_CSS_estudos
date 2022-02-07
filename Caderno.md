@@ -54,7 +54,7 @@ Estrutura basica de documentos HTML
 
 Para quebrar linha basta utilizar o `<br>` no meio da fraze.
 
-Sinal de > e < são feitos assim `&lt; e &gt;`
+Sinal de < e > são feitos assim `&lt; e &gt;`
 
 ### C05A02
 
@@ -101,3 +101,9 @@ H1 não é letra grande, e titulo de nivel 1.
 ### C08A01
 
 Para ver as tags obsoletas basta ver [este site](https://dev.w3.org/html5/pf-summary/obsolete.html)
+
+### C08A02
+
+Seleciona > CTR + SHIFT + P > Enter > digite a marcação.
+
+![Comando](https://user-images.githubusercontent.com/84166332/152878879-5b5f83f3-58d8-4bca-afbb-810beec7b138.gif)
