@@ -107,3 +107,10 @@ Para ver as tags obsoletas basta ver [este site](https://dev.w3.org/html5/pf-sum
 Seleciona > CTR + SHIFT + P > Enter > digite a marcação.
 
 ![Comando](https://user-images.githubusercontent.com/84166332/152878879-5b5f83f3-58d8-4bca-afbb-810beec7b138.gif)
+
+#C09A02
+
+Para selecionar varias marcações para edição:
+
+![selecionar com alt](https://user-images.githubusercontent.com/84166332/153084108-db1e0772-91cd-4fd4-925e-f804ab4e1734.gif)
+
