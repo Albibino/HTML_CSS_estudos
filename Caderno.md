@@ -108,9 +108,16 @@ Seleciona > CTR + SHIFT + P > Enter > digite a marcação.
 
 ![Comando](https://user-images.githubusercontent.com/84166332/152878879-5b5f83f3-58d8-4bca-afbb-810beec7b138.gif)
 
-#C09A02
+### C09A02
 
 Para selecionar varias marcações para edição:
 
 ![selecionar com alt](https://user-images.githubusercontent.com/84166332/153084108-db1e0772-91cd-4fd4-925e-f804ab4e1734.gif)
+ 
+### C10A01
 
+Para abrir links em outra aba basta colocar este codigo apos a abertura da href `target="_blank" rel="external`
+
+### C10A03
+
+Para ver o type correto para download de links, basta entrar no [iana.org](https://www.iana.org/assignments/media-types/media-types.xhtml)
