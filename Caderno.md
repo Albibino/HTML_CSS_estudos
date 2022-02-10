@@ -54,7 +54,7 @@ Estrutura basica de documentos HTML
 
 Para quebrar linha basta utilizar o `<br>` no meio da fraze.
 
-Sinal de > e < são feitos assim `&lt; e &gt;`
+Sinal de < e > são feitos assim `&lt;` e `&gt;`
 
 ### C05A02
 
@@ -97,3 +97,27 @@ Sites utilizados na  aula:
 ### C07A01
 
 H1 não é letra grande, e titulo de nivel 1.
+
+### C08A01
+
+Para ver as tags obsoletas basta ver [este site](https://dev.w3.org/html5/pf-summary/obsolete.html)
+
+### C08A02
+
+Seleciona > CTR + SHIFT + P > Enter > digite a marcação.
+
+![Comando](https://user-images.githubusercontent.com/84166332/152878879-5b5f83f3-58d8-4bca-afbb-810beec7b138.gif)
+
+### C09A02
+
+Para selecionar varias marcações para edição:
+
+![selecionar com alt](https://user-images.githubusercontent.com/84166332/153084108-db1e0772-91cd-4fd4-925e-f804ab4e1734.gif)
+ 
+### C10A01
+
+Para abrir links em outra aba basta colocar este codigo apos a abertura da href `target="_blank" rel="external`
+
+### C10A03
+
+Para ver o type correto para download de links, basta entrar no [iana.org](https://www.iana.org/assignments/media-types/media-types.xhtml)
