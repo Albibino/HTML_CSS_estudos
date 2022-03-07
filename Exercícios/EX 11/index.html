@@ -4,78 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listas</title>
+    <title>Mídias em HTML%</title>
 </head>
 <body>
-    <h1>Trabalhando com listas</h1>
-    <h2>Listas Ordenadas    </h2>
-    <ol type="i"> <!--Pode colocar (1, A, a, I, i)-->
-        <li>Acordas</li>
-        <li>Ligar para o joão</li>
-        <li>Tomar café</li>
-        <li>Escovar os dentes  <!--O fechamento de li é opcional-->
-        <li>Ir para a faculdade</li>
-        <li>Almoçar</li>
-        <li>Ir para o trablaho</li>
-        <li>Voltar para a casa</li>
-        <li>Jantar</li>
-        <li>Dormir</li>
-    </ol>
-    <h2>Listas não Ordenadas</h2>
-    <ul type="square"> <!--Pode colocar (disc, ciscule, square)-->
-        <li>Pão</li>
-        <Li>Leite</Li>
-        <li>Tomate</li>
-        <li>Manteiga</li>
-        <li>Arroz</li>
-        <li>Feijão</li>
-    </ul>
-    <h2>juntando listas versão 1.0</h2>
-    <ol>
-        <li>Antigas</li>
-        <ol type="a">
-            <li>Cliper</li>
-            <li>Visual Basic</li>
-            <li>Fortran</li>
-            <li>Delphi</li>
-        </ol>
-        <li>Novas</li>
-        <ol type="a" start="5">
-            <li>PGP</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Kotlin</li>
-        </ol>
-    </ol>
-    <h2>Meus jogos favoritos</h2>
-    <ol>
-        <li>NES</li>
-        <ul type="square">
-            <li>Mario Bros</li>
-            <ul type="circle">
-                <li>Mario Bros 3</li>               
-                <li>Mario:Lost Levels</li>     
-            </ul>
-            <li>Ninja Gaiden</li>
-        </ul>
-        <LI>SNES</LI>
-        <ul type="square">
-            <li>Mario</li>
-            <li>Donkey kong</li>
-        </ul>
-        <LI>PlayStation</LI>
-        <ul type="square">
-            <li>Final Fantasy</li>
-            <li>Castlevania</li>
-        </ul>
-    </ol>
-    <dl>
-        <dt>HTML</dt>
-        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
-        <dt>CSS</dt>
-        <dd>Linguagem de marcação para a criação do design de um site.</dd>
-        <dt>JavaScript</dt>
-        <dd>Linguagem de programaçao para a ciração de interatividade de um site.</dd>
-    </dl>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamnho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
 </body>
 </html>

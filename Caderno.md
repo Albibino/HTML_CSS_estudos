@@ -121,3 +121,14 @@ Para abrir links em outra aba basta colocar este codigo apos a abertura da href 
 ### C10A03
 
 Para ver o type correto para download de links, basta entrar no [iana.org](https://www.iana.org/assignments/media-types/media-types.xhtml)
+
+### C11A02
+
+Para colocar imagens adapitativas ao tamanho, usando apenas o HTML5 basta:
+``` 
+<picture>
+    <source media="(max-width: 750px)" srcset="Imagem grande" type="image/png">
+    <source media="(max-width: 1000px)" srcset="Imagem media" type="image/png">
+    <img src="Imagem principal" alt="Imagem flexível">
+</picture>
+```
