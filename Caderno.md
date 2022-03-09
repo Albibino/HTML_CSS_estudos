@@ -132,3 +132,16 @@ Para colocar imagens adapitativas ao tamanho, usando apenas o HTML5 basta:
     <img src="Imagem principal" alt="Imagem flexível">
 </picture>
 ```
+
+### C11A03
+
+Para conseguir musicas gratis no [Youtube](https://studio.youtube.com/channel/UC1lZeLG7SLx9y5fw8wz24hQ/music).
+
+Uma das formas de colocar audios no HTML5 é:
+```
+    <audio src="audio.mp3"controls autoplay></audio>
+  ```
+
+### C11A04
+
+Para diminuir arquivos basta usar o programa [handbreak](https://handbrake.fr/)

@@ -15,5 +15,16 @@
         <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio src="midia/004 - Skrillex - Take Ü There (feat. Kiesza).mp3"controls autoplay></audio>
+    <!-- MP# WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/017 - Chemical Surf - Hey Hey Hey (Doozie & The Fish House Remix).mp3" type="audio/mpeg">
+        <source src="midia/017 - Chemical Surf - Hey Hey Hey (Doozie & The Fish House Remix).mogg" type="audio/ogg">
+        <!-- Para o navegador tentar outros tipos de audio, Basta colocar de cima para baixo os outros formatos.-->
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/017 - Chemical Surf - Hey Hey Hey (Doozie & The Fish House Remix).mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
 </body>
 </html>
