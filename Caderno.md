@@ -145,3 +145,7 @@ Uma das formas de colocar audios no HTML5 é:
 ### C11A04
 
 Para diminuir arquivos basta usar o programa [handbreak](https://handbrake.fr/)
+
+### C11A06
+
+[Vimeo](https://vimeo.com/) Para vídeos autorais.
