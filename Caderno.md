@@ -149,3 +149,7 @@ Para diminuir arquivos basta usar o programa [handbreak](https://handbrake.fr/)
 ### C11A06
 
 [Vimeo](https://vimeo.com/) Para vídeos autorais.
+
+### C11A07
+
+Site para pegar [Thumbnails](https://ferramentas.seletronic.com.br/miniaturas-youtube/)
