@@ -153,3 +153,12 @@ Para diminuir arquivos basta usar o programa [handbreak](https://handbrake.fr/)
 ### C11A07
 
 Site para pegar [Thumbnails](https://ferramentas.seletronic.com.br/miniaturas-youtube/)
+
+### C12A03
+
+ * É possível colocar mais de 1 arquivo CSS dentro do `link:css`
+ * A prioridade dos Estilos são respectivamente: 
+   * Inline (Tem maior excalabilidade)
+     * Locais / Internos (Pequenos extilos)
+       * Externos (Evite)
+
