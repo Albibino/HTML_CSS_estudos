@@ -162,3 +162,12 @@ Site para pegar [Thumbnails](https://ferramentas.seletronic.com.br/miniaturas-yo
      * Locais / Internos (Pequenos extilos)
        * Externos (Evite)
 
+### C13A02
+
+Existe 3 formas de representação de cores e estas são:
+
+  * Pelo nome da cor 
+  * Por Hexadecimal
+  * Por códigos RGB
+  * por HSL ((Hue, Sturation, Luminosity)Tom, Saturação, Luminozidade)
+  
