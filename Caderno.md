@@ -171,3 +171,12 @@ Existe 3 formas de representação de cores e estas são:
   * Por códigos RGB
   * por HSL ((Hue, Sturation, Luminosity)Tom, Saturação, Luminozidade)
   
+### C13A04
+
+Site da [adobe](https://color.adobe.com/pt/create/color-wheel) e [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) para escolha de cores para desiner. 
+
+E para algo mais inicial use o [Coolors](https://coolors.co/fffbfc-62bbc1-ec058e-0f0326-3a606e)
+
+### C13A05
+
+Para conseguir as cores de sites usar a extenção [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp/related?utm_source=chrome-ntp-icon)
