@@ -180,3 +180,22 @@ E para algo mais inicial use o [Coolors](https://coolors.co/fffbfc-62bbc1-ec058e
 ### C13A05
 
 Para conseguir as cores de sites usar a extenção [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp/related?utm_source=chrome-ntp-icon)
+  * Pelo nome da cor                                
+![image](https://user-images.githubusercontent.com/84166332/158719118-5a7764fc-305c-4adb-bb59-5ea9774a6563.png)
+
+  * Por Hexadecimal                                        
+![image](https://user-images.githubusercontent.com/84166332/158718943-509cf619-a0c6-4c01-8fac-45de4441a126.png)
+
+  * Por códigos RGB                                        
+![image](https://user-images.githubusercontent.com/84166332/158719001-121d0e3f-7675-497d-8576-1d98a5d92322.png)
+
+  * por HSL ((Hue, Sturation, Luminosity)Tom, Saturação, Luminozidade) 
+![image](https://user-images.githubusercontent.com/84166332/158719050-ac8cf7ac-877f-49ab-892f-0db1086f68cd.png)
+
+Resultado:![image](https://user-images.githubusercontent.com/84166332/158719359-4b0e3ee3-38e6-47a2-81c7-40202de313a6.png)
+
+#### Mecherndo na opacidade:
+![Mecher na opacidade ](https://user-images.githubusercontent.com/84166332/158719959-e95e5dc8-5b8d-4f8e-9273-e27e640e3585.gif)
+
+
+  
