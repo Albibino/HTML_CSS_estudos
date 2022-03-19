@@ -197,5 +197,14 @@ Resultado:![image](https://user-images.githubusercontent.com/84166332/158719359-
 #### Mecherndo na opacidade:
 ![Mecher na opacidade ](https://user-images.githubusercontent.com/84166332/158719959-e95e5dc8-5b8d-4f8e-9273-e27e640e3585.gif)
 
+### C14A02
+
+itens metricos de a anatomia de tipos:
+
+![image](https://user-images.githubusercontent.com/84166332/159139602-d42f393c-5477-434a-873f-3ce2552a46bd.png)
+ 
+Itens anatomicos:
+
+![image](https://user-images.githubusercontent.com/84166332/159139702-e0842adc-5aa3-4fbd-b6c2-d350553e8230.png)
 
   
