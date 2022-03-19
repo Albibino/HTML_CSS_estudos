@@ -207,4 +207,6 @@ Itens anatomicos:
 
 ![image](https://user-images.githubusercontent.com/84166332/159139702-e0842adc-5aa3-4fbd-b6c2-d350553e8230.png)
 
-  
+ * Letras = Grifos 
+ * Todos as letras = fonte
+ * Familias tipograficas = varias letras diferentes da original da mesma fonte(normalmente mais grossas).
