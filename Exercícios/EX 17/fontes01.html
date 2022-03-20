@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans','Courier New', Courier, monospace;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt(ponto do editor de texto), pc(paica)
+            
+            Medidas Relativas
+            em(tamanho da fonte), ex(autura x), rem(root, fonte no bady), vw(tamanho da tela), vh(autura da tela), %
+            16px geralmente = 1em
+            Utilizar o px e o em
+            */
+            font-size: 1em ;
+            font-weight: normal; 
+            /* ligher normal  bold bolder*/
+            /*  não confundir com: wight(peso) width(largura) heitght(autura)*/
+            font-style: normal; /* italico*/
+            text-decoration: underline;/*Sublinhado*/
+
+        }
+        h1 {
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans', 'Courier New', Courier, monospace;
+            /*Shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+        }
+        h2 {
+            font: italic bolder 3em 'Work Sans', 'Courier New', Courier, monospace
+        }
+    </style>
+</head>
+<body >
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error porro impedit commodi asperiores itaque unde exercitationem in possimus temporibus esse aliquam assumenda, et harum dolorum delectus laudantium consequuntur vitae ut!
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam natus distinctio ipsum velit aliquam ullam obcaecati nisi, exercitationem doloremque porro, culpa libero debitis inventore quae nostrum! Veritatis ipsa velit sunt?
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi, cum vel consectetur exercitationem fugit nisi dicta, quasi dolor accusamus iure tempore beatae aliquid! Repellat iste id aspernatur? Harum, voluptate!
+    </p>
+</body>
+</html>

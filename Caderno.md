@@ -207,8 +207,33 @@ Itens anatomicos:
 
 ![image](https://user-images.githubusercontent.com/84166332/159139702-e0842adc-5aa3-4fbd-b6c2-d350553e8230.png)
 
- * Letras = Grifos 
+ * Letras = Glifos 
  * Todos as letras = fonte
  * Familias tipograficas = varias letras diferentes da original da mesma fonte(normalmente mais grossas).
    * ![image](https://user-images.githubusercontent.com/84166332/159140094-d75f09db-53b1-41dd-8d7e-094ee665b72d.png)
 
+### C14A03
+
+Para achar as [combinações de fontes ](http://www.w3bai.com/en-US/cssref/css_websafe_fonts.html), chamadas de safes combinations.
+
+### C14A04
+
+Não confundir com: wight(peso) width(largura) heitght(autura)
+Ordem para o shorthand = - font-style -> font-weight -> font-size -> font-family.
+
+### C14A06
+
+Para achar fonts use o [Google fonts](https://fonts.google.com/)
+
+### C14A07
+
+Para encontrar fontes mais diferentes [dafont](https://www.dafont.com/pt/)
+
+### C14A08
+
+Para encontrar fonts em sites css usar a extenção [Fonts Ninja](https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh?utm_source=chrome-ntp-icon)
+
+### C14A09
+
+Para encontrar fonts em imagens use os sites : [Whatfontis](https://www.whatfontis.com/), [fontsquirrel](https://www.fontsquirrel.com/), 
+[myfonts](https://www.myfonts.com/).
