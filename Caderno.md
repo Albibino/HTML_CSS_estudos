@@ -241,3 +241,12 @@ Para encontrar fonts em imagens use os sites : [Whatfontis](https://www.whatfont
 ### C15A04
 
 Site para [tabelas de Símbolos Especiais](https://erikasarti.com/html/dingbats-simbolos-desenhos/)
+
+### C16A01
+
+ * heigh   = altura 
+ * width   = largura
+ * border  = borda
+ * padding = preenchimento(expaço interno)
+ * margin  = margem(expaço por fora) 
+ * outline = tracejado(borda fora da caixa)
