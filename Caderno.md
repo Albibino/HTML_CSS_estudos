@@ -237,3 +237,7 @@ Para encontrar fonts em sites css usar a extenção [Fonts Ninja](https://chrome
 
 Para encontrar fonts em imagens use os sites : [Whatfontis](https://www.whatfontis.com/), [fontsquirrel](https://www.fontsquirrel.com/), 
 [myfonts](https://www.myfonts.com/).
+
+### C15A04
+
+Site para [tabelas de Símbolos Especiais](https://erikasarti.com/html/dingbats-simbolos-desenhos/)
