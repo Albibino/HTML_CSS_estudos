@@ -243,10 +243,44 @@ Para encontrar fonts em imagens use os sites : [Whatfontis](https://www.whatfont
 Site para [tabelas de Símbolos Especiais](https://erikasarti.com/html/dingbats-simbolos-desenhos/)
 
 ### C16A01
-
+caixa:
  * heigh   = altura 
  * width   = largura
  * border  = borda
  * padding = preenchimento(expaço interno)
  * margin  = margem(expaço por fora) 
  * outline = tracejado(borda fora da caixa)
+
+Tipos de caixa:
+ * box-level `displey: block`
+    * `<div>`
+    * `<h1>-<h6>`
+    * `<p>`
+    * `<main>`
+    * `<header>`
+    * `<nav>`
+    * `<article>`
+    * `<aside>`
+    * `<footer>`
+    * `<form>`
+    * `<video>`
+ * inline-level `display: inline`
+    * `<span>`
+    * `<a>`
+    * `<code>`
+    * `<small>`
+    * `<strong>`
+    * `<em>`
+    * `<sup>-<sub>`
+    * `<label>`
+    * `<botton>`
+    * `<input>`
+    * `<select>`
+
+### C16A02
+
+Sempre é o navegador quando : *user agent*
+
+### C16A03
+
+O `auto` para centrazilar
