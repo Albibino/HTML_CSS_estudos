@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px 0px;
+    background-color: #83DEA6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+header {
+    padding: 1em;
+    background-color: #329F5B;
+    margin: 0px;
+    color: white;
+    background-image: linear-gradient(to bottom, #8FD5A6, #1c5a34 )
+}
+
+h1 {
+    font-family: fantasy ;
+    font-weight: 100;
+    margin: 0px;
+    font-size: 1.7em;
+} 
+
+header > p{
+    text-indent: 0px;
+    font-weight: 200;
+}
+
+nav {
+    padding: 0em;
+    margin: 0px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    padding: 1em;
+    border-radius: 5%;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    background-color: rgb(162, 199, 162);
+    color: #182B20;
+    
+}
+
+main {
+    background-color: white;
+    box-shadow: 5px 5px 15px #7BA88E;
+    width: 70%;
+    padding: 1px 20px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #329F5B;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: idroid ;
+    color: #329F5B;
+}
+
+p {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+p > a::after {
+    content: ' 🔗' ;
+}
+
+strong {
+    color: #329F5B;
+}
+
+h3{
+    background-image: linear-gradient(to right, #82cf949c, #d3eeda98, #e8fff08f );
+    font-family: idroid ;
+    color: #329F5B;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div#video {
+    background-color: #182B20;
+    padding: 5%;
+}
+
+iframe {
+    background-color: #329F5B;
+    display: block;
+    margin: auto;
+}
+
+video {
+    background-color: #329F5B;
+}
+
+article#extra {
+    background-color: rgb(140, 216, 140);
+    border-radius: 1em;
+    padding-bottom: 1%;
+    box-shadow: 5px 5px 15px #7BA88E;
+}
+
+article#extra > p {
+    padding: 0% 1% 0% 1%;
+}
+
+article > nav {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    padding: 0% 1% 0% 1%;
+    width: 300px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+nav#depois {
+    padding: 0% 10% 0% 1%
+}
+
+h4 {
+    padding: 1em;
+    background-color: #329F5B;
+    border-radius: 1em 1em 0em 0em;
+    color: white
+}
+
+footer {
+    background-color: #182B20;
+    color: #83DEA6;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+b {
+    color: white;
+}
