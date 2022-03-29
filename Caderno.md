@@ -294,3 +294,7 @@ para criar mocks de site : [Wireframe](https://wireframepro.mockflow.com/)
 Para saber o tamanho da tela no navegador :
 
 ![saber o tamanho exato da tela](https://user-images.githubusercontent.com/84166332/160297493-10efffc6-a72f-4fd2-ad0d-1f4b0f88cb1a.gif)
+
+### C18A06
+
+Para gerar o Qr code de um link qualquer, entre no site [QR Code Generator](https://br.qr-code-generator.com/)
