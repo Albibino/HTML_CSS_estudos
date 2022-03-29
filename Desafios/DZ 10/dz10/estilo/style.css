@@ -22,34 +22,34 @@
 }
 
 * {                 /*Seletor global*/
-    margin: 0px;    /*Parde de fora da caixa*/
-    padding: 0px;   /*Parde de dentro da borda ate chegar no conteudo*/
+    margin: 0px;                            /*Parde de fora da caixa*/
+    padding: 0px;                           /*Parde de dentro da borda ate chegar no conteudo*/
 }
 
 body {              /*Seletor do body*/
-    background-color: var(--cor0);  /*Cor de fundo da variavel*/
-    font-family: var(--font-padrão);/*font do conteudo da variavel*/
+    background-color: var(--cor0);          /*Cor de fundo da variavel*/
+    font-family: var(--font-padrão);        /*font do conteudo da variavel*/
 }
 
 a.externo::after {  /*Seletor do a da class externo com o pseudo-elemento after*/
-    content: '\00A0\1F517'; /*Excreve algo no local do pseudo-elemento*/
+    content: '\00A0\1F517';                 /*Excreve algo no local do pseudo-elemento*/
 }
 
 header {            /*Seletor header*/
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); 
         /*Imagem do fundo, que sera um gradiente linear de cima para baixo*/
-    min-height: 150px;  /*Altura mínima do header*/
-    text-align: center; /*Alinhamento do texto*/
-    padding-top: 40px;  /*Parde de dentro da borda ate chegar no conteudo*/
+    min-height: 150px;                      /*Altura mínima do header*/
+    text-align: center;                     /*Alinhamento do texto*/
+    padding-top: 40px;                      /*Parde de dentro da borda ate chegar no conteudo*/
 }
 
 header > h1 {       /*Seletor do header apenas no h1*/
-    color: white;                       /*Cor do texto*/
-    font-family: var(--font-destaque);    /*font do conteudo da variavel*/
-    font-size: 3em;                       /*Tamanho da font*/
-    font-weight: normal;                  /*Negrito da font*/  
-    margin-bottom: 20px;                  /*Parde de fora e de baixo da caixa*/
-    text-shadow: 2px 2px 0px #00000052; /*Sombra do texto*/
+    color: white;                         /*Cor do texto*/
+    font-family: var(--font-destaque);      /*font do conteudo da variavel*/
+    font-size: 3em;                         /*Tamanho da font*/
+    font-weight: normal;                    /*Negrito da font*/  
+    margin-bottom: 20px;                    /*Parde de fora e de baixo da caixa*/
+    text-shadow: 2px 2px 0px #00000052;   /*Sombra do texto*/
 }
 
 header > p{         /*Seletor do header apenas p*/
@@ -64,144 +64,145 @@ header > p{         /*Seletor do header apenas p*/
     text-shadow: 2px 2px 0px #0000006c;   /*Sombra do texto*/ 
 }                                           
 
-nav {               /*Seletor */
-    background-color: var(--cor5);
-    padding: 10px;
-    box-shadow: 0px 7px 7px #00000054;
+nav {               /*Seletor da nav*/
+    background-color: var(--cor5);          /*Cor de fundo da variavel*/
+    padding: 10px;                          /*Parde de dentro da borda ate chegar no conteudo*/
+    box-shadow: 0px 7px 7px #00000054;    /*Sombra da caixa*/
 }
 
-nav > a {           /*Seletor */
-    color: var(--cor1);
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: 0.5s;
+nav > a {           /*Seletor nav apenas o a*/
+    color: var(--cor1);                     /*Cor do texto da variavel*/
+    padding: 10px;                          /*Parde de dentro da borda ate chegar no conteudo*/
+    border-radius: 5px;                     /*Curva da caixa*/
+    text-decoration: none;                  /*Sublinhado da font*/
+    font-weight: bold;                      /*Negrito da font*/
+    transition-duration: 0.5s;              /*Duração da tranzição do Seletor seguinte*/
 }
 
-nav  > a:hover {    /*Seletor */
-    background-color: var(--cor3);
-    color: var(--cor5);
+nav  > a:hover {    /*Seletor do nav apenas os links com o pseudo elemento hover(encostar)*/
+    background-color: var(--cor3);          /*Cor de fundo da variavel*/
+    color: var(--cor5);                     /*Cor do texto*/
 }
 
-main {              /*Seletor */
-    max-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px #0000006c;
-    border-radius: 0px 0px 10px 10px;
+main {              /*Seletor do main*/
+    max-width: 300px;                       /*Largura maxima*/
+    max-width: 1000px;                      /*Largura maxima*/
+    margin: auto;                           /*Parde de fora da caixa*/
+    margin-bottom: 30px;                    /*Parde de fora e de baixo da caixa*/
+    padding: 20px;                          /*Parde de dentro da borda ate chegar no conteudo*/
+    background-color: white;              /*Cor de fundo*/
+    box-shadow: 0px 0px 10px #0000006c;   /*Sombra da caixa*/
+    border-radius: 0px 0px 10px 10px;       /*Curva da caixa*/
 }
 
-main  h1 {          /*Seletor */
-    color: var(--cor5);
-    font-family: var(--font-android);
-    font-weight: normal;
-    font-size: 1.8em;
+main  h1 {          /*Seletor do main dentro do h1*/
+    color: var(--cor5);                     /*Cor do texto da variavel*/
+    font-family: var(--font-android);       /*font do conteudo da variavel*/
+    font-weight: normal;                    /*Negrito da font*/
+    font-size: 1.8em;                       /*Tamanho da font*/
 }
 
-main  h2 {          /*Seletor */
-    font-family: var(--font-android);
-    color: var(--cor4);
-    font-size: 1.3em;
-    font-weight: normal;
+main  h2 {          /*Seletor do main dentro do h1*/
+    font-family: var(--font-android);       /*font do conteudo da variavel*/
+    color: var(--cor4);                     /*Cor do texto da variavel*/
+    font-size: 1.3em;                       /*Tamanho da font*/
+    font-weight: normal;                    /*Negrito da font*/
     background-image: linear-gradient(to right, var(--cor1), transparent);
-    text-indent: 8px;
+        /*Imagem do fundo, que sera um gradiente linear de cima para baixo*/
+    text-indent: 8px;                       /*Identação do texto*/
 }
 
-main p {            /*Seletor */
-    margin: 15px 0px 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 2em;
-    font-size: 1.1em;
+main p {            /*Seletor do main dentro do p*/
+    margin: 15px 0px 15px 0px;              /*Parde de fora da caixa*/
+    text-align: justify;                    /*Alinhamento do texto*/
+    text-indent: 30px;                      /*Identação do texto*/
+    line-height: 2em;                       /*Distancia entre linhas*/
+    font-size: 1.1em;                       /*Tamanho da font*/
 }
 
-main strong {       /*Seletor */
-    color: var(--cor4);
-    font-weight: bold;
-    padding: 2px 6px;
+main strong {       /*Seletor do strong*/
+    color: var(--cor4);                     /*Cor do texto da variavel*/
+    font-weight: bold;                      /*Negrito da font*/
+    padding: 2px 6px;                       /*Parde de dentro da borda ate chegar no conteudo*/
 }
 
-main a{             /*Seletor */
-    text-decoration: none;
-    font-weight: bold;
-    background-color: var(--cor1);
-    color: var(--cor5);
-    padding: 2px 6px;
+main a{             /*Seletor do main dentro do a*/
+    text-decoration: none;                  /*Sublinhado da font*/
+    font-weight: bold;                      /*Negrito da font*/
+    background-color: var(--cor1);          /*Cor de fundo da variavel*/
+    color: var(--cor5);                     /*Cor do texto da variavel*/
+    padding: 2px 6px;                       /*Parde de dentro da borda ate chegar no conteudo*/
 }
 
-main a:hover {      /*Seletor */
-    text-decoration: underline;
-    color: var(--cor3);
+main a:hover {      /*Seletor do main dentro do a com o pseudo-elemento hover(encostar)*/
+    text-decoration: underline;             /*Sublinhado da font*/
+    color: var(--cor3);                     /*Cor do texto da variavel*/
 }
 
-main img {          /*Seletor */
-    width: 100%;
+main img {          /*Seletor do main dentro de img*/
+    width: 100%;                            /*Largura de 100% do mmain*/
 }
 
-main img.pequena {  /*Seletor */
-    max-width: 350px;
-    display: block;
-    margin: auto;
+main img.pequena {  /*Seletor do main dentro de img da class pequena*/
+    max-width: 350px;                       /*Largura maxima*/
+    display: block;                         /*Modificar o tipo de caixa*/
+    margin: auto;                           /*Para deixar centralizado*/
     
 }
 
-div.video {         /*Seletor */
-    background-color: var(--cor5);
-    margin: 0px -20px 20px -20px;
-    padding: 20px;
-
-    padding-bottom: 57%;
-    position: relative;
+div.video {         /*Seletor do div da class video*/
+    background-color: var(--cor5);          /*Cor de fundo da variavel*/
+    margin: 0px -20px 20px -20px;           /*Parde de fora da caixa*/
+    padding: 20px;                          /*Parde de dentro da borda ate chegar no conteudo*/
+    /*Para colocar o viedo centralizado*/
+    padding-bottom: 57%;                    /*Parde de dentro de baixo da borda ate chegar no conteudo*/
+    position: relative;                     /*define como um elemento pode ser posicionado (renderizado)*/
 }
 
-div.video > iframe {/*Seletor */
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+div.video > iframe {/*Seletor do div da cass video apenas no iframe*/
+    position: absolute;                     /*define como um elemento pode ser posicionado (renderizado)*/
+    top: 5%;                                /*Posição vertical */
+    left: 5%;                               /*Posição horizontal*/
+    width: 90%;                             /*Largura do conteudo*/
+    height: 90%;                            /*Comprimento do conteudo*/
 }
 
-aside {             /*Seletor */
-    background-color: var(--cor1);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px #0000003f;
+aside {             /*Seletor do aside*/
+    background-color: var(--cor1);          /*Cor de fundo da variavel*/
+    padding: 10px;                          /*Parde de dentro da borda ate chegar no conteudo*/
+    border-radius: 10px;                    /*Curva da caixa*/
+    box-shadow: 3px 3px 8px #0000003f;    /*Sombra da caixa*/
 }
 
-aside > h3 {        /*Seletor */
-    background-color: var(--cor4);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0 -10px;
-    border-radius: 10px 10px 0px 0px;
+aside > h3 {        /*Seletor do aside apenas do h3*/
+    background-color: var(--cor4);          /*Cor de fundo da variavel*/
+    color: white;                         /*Cor do texto*/
+    padding: 10px;                          /*Parde de dentro da borda ate chegar no conteudo*/
+    margin: -10px -10px 0 -10px;            /*Parde de fora da caixa*/
+    border-radius: 10px 10px 0px 0px;       /*Curva da caixa*/
+}   
+
+aside > ul {        /*Seletor do aside apenas a ul*/
+    list-style-type: '\2714\00A0\00A0';     /*Marcador da lista*/
+    list-style-position: inside;            /*Posição do relativo a um item*/
+    columns: 2;                             /*Quantas colunas terar a lista*/
 }
 
-aside > ul {        /*Seletor */
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside;
-    columns: 2;
+footer {            /*Seletor do footer*/
+    background-color: var(--cor5);          /*Cor de fundo da variavel*/
+    color: white;                         /*Cor do texto*/
+    text-align: center;                     /*Alinhamento do texto*/
+    font-size: 0.8em;                       /*Tamanho da font*/
+    padding: 5px;                           /*Parde de dentro da borda ate chegar no conteudo*/
 }
 
-footer {            /*Seletor */
-    background-color: var(--cor5);
-    color: white;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
-}
-
-footer p a {        /*Seletor */
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
+footer p a {        /*Seletor footer dentro de p e dentro de a*/
+    color: white;                         /*Cor do texto*/
+    font-weight: bolder;                    /*Negrito da font*/
+    text-decoration: none;                  /*Sublinhado da font*/
 }
 
 footer a:hover {    /*Seletor */
-    text-decoration: underline;
-    color: var(--cor1);
+    text-decoration: underline;             /*Sublinhado da font*/
+    color: var(--cor1);                     /*Cor do texto da variavel*/
 }
