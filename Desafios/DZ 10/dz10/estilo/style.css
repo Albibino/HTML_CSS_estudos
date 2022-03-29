@@ -1,74 +1,76 @@
-@charset "UTF-8";/**/
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@font-face {
-    font-family: 'android';
-    src: url('../fontes/idroid.otf') format('opentype');
-    font-weight: normal;  
+@charset "UTF-8";/*Caracteres*/
+/*at-rules*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');/*Importar a fonte Bebas Neue do Fonts do google*/
+@font-face {/*Especifica uma fonte */
+    font-family: 'android';/*Nome da fonte*/
+    src: url('../fontes/idroid.otf')/*Local que a fonte esta*/ format('opentype')/*Tipo do arquivo*/;/*Descritor*/
+    font-weight: normal;/*Peso da fonte*/  
 }
 
-:root {
+:root {             /*Para declarar variavel global.*/
+    /*Cores em variaveis*/
     --cor0: #c5ebd5;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
     --cor3: #2fa866;
     --cor4: #1a5c37;
     --cor5: #063d1e;
-
+    /*Fonts em variaveis*/
     --font-padrão: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', cursive;
     --font-android: 'android', cursive;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
+* {                 /*Seletor global*/
+    margin: 0px;    /*Parde de fora da caixa*/
+    padding: 0px;   /*Parde de dentro da borda ate chegar no conteudo*/
 }
 
-body {
-    background-color: var(--cor0);
-    font-family: var(--font-padrão);
+body {              /*Seletor do body*/
+    background-color: var(--cor0);  /*Cor de fundo da variavel*/
+    font-family: var(--font-padrão);/*font do conteudo da variavel*/
 }
 
-a.externo::after {
-    content: '\00A0\1F517';
+a.externo::after {  /*Seletor do a da class externo com o pseudo-elemento after*/
+    content: '\00A0\1F517'; /*Excreve algo no local do pseudo-elemento*/
 }
 
-header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-height: 150px;
-    text-align: center;
-    padding-top: 40px;
+header {            /*Seletor header*/
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); 
+        /*Imagem do fundo, que sera um gradiente linear de cima para baixo*/
+    min-height: 150px;  /*Altura mínima do header*/
+    text-align: center; /*Alinhamento do texto*/
+    padding-top: 40px;  /*Parde de dentro da borda ate chegar no conteudo*/
 }
 
-header > h1 {
-    color: white;
-    font-family: var(--font-destaque);
-    font-size: 3em;
-    font-weight: normal;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.322);
+header > h1 {       /*Seletor do header apenas no h1*/
+    color: white;                       /*Cor do texto*/
+    font-family: var(--font-destaque);    /*font do conteudo da variavel*/
+    font-size: 3em;                       /*Tamanho da font*/
+    font-weight: normal;                  /*Negrito da font*/  
+    margin-bottom: 20px;                  /*Parde de fora e de baixo da caixa*/
+    text-shadow: 2px 2px 0px #00000052; /*Sombra do texto*/
 }
 
-header > p{
-    font-family: var(--font-padrão);
-    font-size: 1.2em;
-    color: white;
-    max-width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: auto;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.422);
-}
+header > p{         /*Seletor do header apenas p*/
+    font-family: var(--font-padrão);        /*font do conteudo da variavel*/
+    font-size: 1.2em;                       /*Tamanho da fonte*/
+    color: white;                         /*Cor do texto*/
+    max-width: 600px;                       /*Altura Largura maxima*/
+    padding-left: 10px;                     /*Parde de dentro na esquerda da borda ate chegar no conteudo*/
+    padding-right: 10px;                    /*Parde de dentro na direita da borda ate chegar no conteudo*/
+    margin: auto;                           /*Parde de fora da caixa*/
+    margin-bottom: 20px;                    /*Parde de fora e de baixo da caixa*/
+    text-shadow: 2px 2px 0px #0000006c;   /*Sombra do texto*/ 
+}                                           
 
-nav {
+nav {               /*Seletor */
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.329);
+    box-shadow: 0px 7px 7px #00000054;
 }
 
-nav > a {
+nav > a {           /*Seletor */
     color: var(--cor1);
     padding: 10px;
     border-radius: 5px;
@@ -77,30 +79,30 @@ nav > a {
     transition-duration: 0.5s;
 }
 
-nav  > a:hover {
+nav  > a:hover {    /*Seletor */
     background-color: var(--cor3);
     color: var(--cor5);
 }
 
-main {
+main {              /*Seletor */
     max-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+    box-shadow: 0px 0px 10px #0000006c;
     border-radius: 0px 0px 10px 10px;
 }
 
-main  h1 {
+main  h1 {          /*Seletor */
     color: var(--cor5);
     font-family: var(--font-android);
     font-weight: normal;
     font-size: 1.8em;
 }
 
-main  h2 {
+main  h2 {          /*Seletor */
     font-family: var(--font-android);
     color: var(--cor4);
     font-size: 1.3em;
@@ -109,7 +111,7 @@ main  h2 {
     text-indent: 8px;
 }
 
-main p {
+main p {            /*Seletor */
     margin: 15px 0px 15px 0px;
     text-align: justify;
     text-indent: 30px;
@@ -117,13 +119,13 @@ main p {
     font-size: 1.1em;
 }
 
-main strong {
+main strong {       /*Seletor */
     color: var(--cor4);
     font-weight: bold;
     padding: 2px 6px;
 }
 
-main a{
+main a{             /*Seletor */
     text-decoration: none;
     font-weight: bold;
     background-color: var(--cor1);
@@ -131,23 +133,23 @@ main a{
     padding: 2px 6px;
 }
 
-main a:hover {
+main a:hover {      /*Seletor */
     text-decoration: underline;
     color: var(--cor3);
 }
 
-main img {
+main img {          /*Seletor */
     width: 100%;
 }
 
-main img.pequena {
+main img.pequena {  /*Seletor */
     max-width: 350px;
     display: block;
     margin: auto;
     
 }
 
-div.video {
+div.video {         /*Seletor */
     background-color: var(--cor5);
     margin: 0px -20px 20px -20px;
     padding: 20px;
@@ -156,7 +158,7 @@ div.video {
     position: relative;
 }
 
-div.video > iframe {
+div.video > iframe {/*Seletor */
     position: absolute;
     top: 5%;
     left: 5%;
@@ -164,14 +166,14 @@ div.video > iframe {
     height: 90%;
 }
 
-aside {
+aside {             /*Seletor */
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.247);
+    box-shadow: 3px 3px 8px #0000003f;
 }
 
-aside > h3 {
+aside > h3 {        /*Seletor */
     background-color: var(--cor4);
     color: white;
     padding: 10px;
@@ -179,13 +181,13 @@ aside > h3 {
     border-radius: 10px 10px 0px 0px;
 }
 
-aside > ul {
+aside > ul {        /*Seletor */
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
 }
 
-footer {
+footer {            /*Seletor */
     background-color: var(--cor5);
     color: white;
     text-align: center;
@@ -193,13 +195,13 @@ footer {
     padding: 5px;
 }
 
-footer p a {
+footer p a {        /*Seletor */
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
-footer a:hover {
+footer a:hover {    /*Seletor */
     text-decoration: underline;
     color: var(--cor1);
 }
