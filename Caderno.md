@@ -298,3 +298,9 @@ Para saber o tamanho da tela no navegador :
 ### C18A06
 
 Para gerar o Qr code de um link qualquer, entre no site [QR Code Generator](https://br.qr-code-generator.com/)
+
+### C19A03
+
+Para colocar uma imagem basta colocar uma `url()` no `bacgraund-image:`.
+
+Para o `background-repeat:` pode se usar: `repeat` `repeat-x` `repeat-y` `no-repeat`
