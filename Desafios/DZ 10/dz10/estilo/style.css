@@ -59,8 +59,8 @@ header > p{         /*Seletor do header apenas p*/
     max-width: 600px;                       /*Altura Largura maxima*/
     padding-left: 10px;                     /*Parde de dentro na esquerda da borda ate chegar no conteudo*/
     padding-right: 10px;                    /*Parde de dentro na direita da borda ate chegar no conteudo*/
+    padding-bottom: 50px;                   /*Parde de dentro na direita da borda ate chegar no conteudo*/
     margin: auto;                           /*Parde de fora da caixa*/
-    margin-bottom: 20px;                    /*Parde de fora e de baixo da caixa*/
     text-shadow: 2px 2px 0px #0000006c;   /*Sombra do texto*/ 
 }                                           
 
