@@ -304,3 +304,8 @@ Para gerar o Qr code de um link qualquer, entre no site [QR Code Generator](http
 Para colocar uma imagem basta colocar uma `url()` no `bacgraund-image:`.
 
 Para o `background-repeat:` pode se usar: `repeat` `repeat-x` `repeat-y` `no-repeat`
+
+### C21A05
+
+th é o titulo
+td é o dado
