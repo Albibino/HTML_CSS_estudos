@@ -1,4 +1,4 @@
-# Curso_HTML_CSS
+# HTML_CSS_estudos
  Repositório para curso do Guanabara
 ### C01A02
 Links importantes:
