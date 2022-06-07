@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+    }
+    .drop {
+      animation: dropIn 1s ease forwards; 
+      animation-delay: calc(var(--oder) * 100ms);
+    }
+    @keyframes dropIn {
+      from { transform: translate(700px,700px);}
+      to { transform: translatey(0px);}
+    }
+  </style>
+  <title>caindo</title>
+</head>
+<body>
+  <i class="drop" style="--oder: 1">😀</i>
+  <i class="drop" style="--oder: 2">😁</i>
+  <i class="drop" style="--oder: 3">😂</i>
+</body>
+</html>

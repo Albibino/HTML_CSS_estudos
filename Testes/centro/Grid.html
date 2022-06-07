@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Centro</title>
+  <style>
+    div,
+    .box {
+      background-color: black;
+      width: 180px;
+      height: 180px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 60px 1fr;
+      grid-template-rows: 60px 60px;
+      place-items: center;
+      width: clamp();
+    }
+  </style>
+</head>
+<body>
+    <h1>Grid centro</h1>
+    <div class="grid">
+      <i>😄</i>
+      <i>😄</i>
+      <i>😄</i>
+      <i>😄</i>
+      <i>😄</i>
+      <i>😄</i>
+      <i>😄</i>
+      <i>😄</i>
+      <i>😄</i>
+    </div>
+</body>
+</html>

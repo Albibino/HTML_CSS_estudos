@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Centro</title>
+  <style>
+    div,
+    .box {
+      background-color: black;
+      width: 100px;
+      height: 100px;
+    }
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .linha_flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .coluna_flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+    <h1>Flex centro</h1>
+    <div class="flex">
+      <i>😄</i>
+    </div>
+    <div class="linha_flex">
+      <div class="coluna_flex">
+        <i>😄</i>
+        <i>😄</i>
+        <i>😄</i>
+      </div>
+      <div class="coluna_flex">
+        <i>😄</i>
+        <i>😄</i>
+        <i>😄</i>
+      </div>
+      <div class="coluna_flex">
+        <i>😄</i>
+        <i>😄</i>
+        <i>😄</i>
+      </div>
+    </div>
+</body>
+</html>
