@@ -311,3 +311,18 @@ Para o `background-repeat:` pode se usar: `repeat` `repeat-x` `repeat-y` `no-rep
 
 th é o titulo
 td é o dado
+
+### Margin collapse
+
+![image](https://user-images.githubusercontent.com/84166332/222004350-bf66fe2c-0108-4457-9f2b-9dbb85c76b70.png)
+
+### Posicionamento
+
+![image](https://user-images.githubusercontent.com/84166332/222596713-a5b66eaf-8402-4b68-9574-b540c6091d8b.png)
+
+
+### inline-block
+
+![image](https://user-images.githubusercontent.com/84166332/222590170-8e192835-7a5f-4ec7-8314-df661b0c3bee.png)
+
+
