@@ -329,4 +329,9 @@ td é o dado
 
 ![image](https://user-images.githubusercontent.com/84166332/222860185-fb09709f-6cd8-4233-85dd-3ffeae78ae7f.png)
 
+### Seletore 
+
+![image](https://user-images.githubusercontent.com/84166332/223002317-6ba421ea-87c3-480f-a029-947363222e07.png)
+
+
 
