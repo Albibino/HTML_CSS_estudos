@@ -333,5 +333,9 @@ td é o dado
 
 ![image](https://user-images.githubusercontent.com/84166332/223002317-6ba421ea-87c3-480f-a029-947363222e07.png)
 
+### line height
+
+![image](https://user-images.githubusercontent.com/84166332/223309724-7f27fe6b-94e7-4245-b4c2-68fe1889ce14.png)
+
 
 
