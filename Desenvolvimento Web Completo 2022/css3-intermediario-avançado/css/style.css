@@ -31,7 +31,70 @@ Seletor de irmão adjacente
 h1+p {
     color: blue;
 }
-Seletor de irmão geral*/
+Seletor de irmão geral
 h1~p{
     color: pink;
-}
+}*/
+
+
+/* herança e espeficidade
+ body {
+    color: red;
+    font-size: 25px;
+    border: 1px solid blue;
+ }
+ p {
+    color: red !important;
+ }
+ p {
+    color: blue;
+ }*/
+ /* Se um seletor for mais específico que outro a regra mais específica será aplicada(terá precedência sobre regras mais gerais) 
+ 4
+ * {
+    color: red;
+ }
+3
+ h2 {
+    color: black;
+ }
+ 2
+ h2.verde{
+    color: green;
+ }
+ 1
+ h2#amarelo{ 
+    color: yellow;
+ }*/
+
+ /* Barra e navegação vertical 
+ ul {
+    border: 1px solid red;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+ }
+ li {
+    padding-left: 20px;
+    border: 1px solid red;
+    background: url(../imagens/seta.png) no-repeat left center;
+ }*/
+ ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+ }
+ ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    line-height: 40px;
+    text-indent: 40px;
+    background: url(../imagens/menu.png) no-repeat left bottom;
+ }
+ ul li a:hover {
+    background-position: right bottom;
+ }
